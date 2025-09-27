@@ -1,0 +1,3 @@
+best_fold=2
+criterion=val_acc
+ckpt=artifacts\cv\cvtest_20250908_182400_5f\fold_02\best.pt

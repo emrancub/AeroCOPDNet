@@ -1,0 +1,8 @@
+{
+  "fold": 2,
+  "train_loss": 0.012188283772109135,
+  "train_acc": 1.0,
+  "val_loss": 0.09129898147007753,
+  "val_acc": 0.9674418604651163,
+  "ckpt": "artifacts\\cv\\cvtest_20250908_182400_5f\\fold_02\\best.pt"
+}
