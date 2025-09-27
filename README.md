@@ -223,4 +223,3 @@ Respect the original dataset licenses and citation requirements.
 
 * For research questions, email the corresponding author listed in the paper.
 * Or, Please contact **Md Emran Hasan** ([writetoemran@gmail.com](mailto:writetoemran@gmail.com) or [mdemranhasan@njust.edu.cn](mailto:mdemranhasan@njust.edu.cn)).
-# AeroCOPDNet
