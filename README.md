@@ -187,7 +187,7 @@ If you use this repository, please cite the datasets and our manuscript (will ch
 ```bibtex
 @article{AeroCOPDNet2025,
   title  = {AeroCOPDNe: A Deep Learning Framework for COPD Detection from Lung Sounds},
-  author = {Md Emran Hasan and Dong-Jun Yu},
+  author = {Md Emran Hasan, Yue-Fang Wu and Dong-Jun Yu},
   year   = {2025},
   note   = {Code: https://github.com/emrancub/AeroCOPDNet}
 }
