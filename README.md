@@ -165,8 +165,6 @@ python -m scripts.ablation_run --csv artifacts\splits\pooled_icbhi_fraiwan_binar
 
 ## 📈 Results (placeholder summary)
 
-* **Cross-dataset (ICBHI + Fraiwan):** **Mixup** improves transfer and MCC.
-
 Full tables/plots will appear in `artifacts/` once released.
 
 ---
