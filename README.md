@@ -129,7 +129,7 @@ python -m scripts.ablation_run --csv artifacts\splits\pooled_icbhi_fraiwan_binar
 ## 🧠 Method (High-Level)
 
 * **Inputs:** log-mel spectrograms (per-bin z-norm using train statistics)
-* **Model:** **AeroCOPDNet** — lightweight CNN with depthwise-separable conv blocks → GAP → sigmoid
+* **Model:** **AeroCOPDNet** — CNN based deep learning algorithom 
 * **Imbalance:** class-weighted BCE; **SpecAugment** + **Mixup**
 * **Evaluation:** patient-wise K-fold; metrics: **Acc, Sens, Spec, F1, AUROC, AUPR, MCC**
 
