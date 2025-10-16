@@ -1,4 +1,4 @@
-# AeroCOPDNet (COPD vs. Non-COPD from Lung Sounds)
+# AeroCOPDNet (All updates and publications will be made as per request or after acceptance of the paper.)
 
 A reproducible pipeline for **binary COPD detection** from chest auscultation audio using **log-mel spectrograms**.
 Includes our compact CNN (**AeroCOPDNet**) and strong baselines (**Basic-CNN, CRNN, LSTM, GRU**) with cross-validation, robust class-imbalance handling, and spectrogram/audio augmentations.
