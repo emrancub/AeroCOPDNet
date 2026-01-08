@@ -1,3 +1,14 @@
+# 🔄 Updated Implementation (Post-Review)
+
+A revised and fully reproducible implementation of **AeroCOPDNet** is available in a new repository.  
+This rebuild incorporates post-review updates, clarified architecture, ablation studies, and refined evaluation protocols.
+
+👉 **AeroCOPDNetRebuild:**  
+https://github.com/emrancub/AeroCOPDNetRebuild
+
+All future updates and finalized materials will be released in the rebuilt repository upon request or after paper acceptance.
+
+# Previous: 
 # AeroCOPDNet (All updates and publications will be made as per request or after acceptance of the paper.)
 
 A reproducible pipeline for **binary COPD detection** from chest auscultation audio using **log-mel spectrograms**.
