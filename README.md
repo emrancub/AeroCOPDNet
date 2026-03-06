@@ -1,15 +1,4 @@
-# 🔄 Updated Implementation (Post-Review)
-
-A revised and fully reproducible implementation of **AeroCOPDNet** is available in a new repository.  
-This rebuild incorporates post-review updates, clarified architecture, ablation studies, and refined evaluation protocols.
-
-👉 **AeroCOPDNetRebuild:**  
-https://github.com/emrancub/AeroCOPDNetRebuild
-
-All future updates and finalized materials will be released in the rebuilt repository upon request.
-
-# Previous: 
-# AeroCOPDNet (All updates and publications will be made as per request or after acceptance of the paper.)
+# AeroCOPDNet: A deep learning framework for COPD detection from lung sounds
 
 A reproducible pipeline for **binary COPD detection** from chest auscultation audio using **log-mel spectrograms**.
 Includes our compact CNN (**AeroCOPDNet**) and strong baselines (**Basic-CNN, CRNN, LSTM, GRU**) with cross-validation, robust class-imbalance handling, and spectrogram/audio augmentations.
@@ -26,7 +15,7 @@ Includes our compact CNN (**AeroCOPDNet**) and strong baselines (**Basic-CNN, CR
 * **Imbalance:** class-weighted BCE + **SpecAugment** + **Mixup**
 * **Splits:** stratified K-fold (no identity leakage)
 * **Baselines:** Basic-CNN / CRNN / LSTM / GRU
-* **Artifacts:** `artifacts/` (figures, plots, reports) will be uploaded after final journal decisions
+* **Artifacts:** `artifacts/` (figures, plots, reports) will be uploaded if needed. 
 
 ---
 
@@ -213,6 +202,18 @@ If you use this repository, please cite the datasets and our manuscript:
   doi     = {10.1016/j.dib.2021.106913}
 }
 ```
+
+---
+
+# 🔄 Updated Implementation (Post-Review)
+
+A revised and fully reproducible implementation of **AeroCOPDNet** is available in a new repository.  
+This rebuild incorporates post-review updates, clarified architecture, ablation studies, and refined evaluation protocols.
+
+👉 **AeroCOPDNetRebuild:**  
+https://github.com/emrancub/AeroCOPDNetRebuild
+
+All future updates and finalized materials will be released in the rebuilt repository upon request.
 
 ---
 
