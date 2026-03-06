@@ -6,7 +6,7 @@ This rebuild incorporates post-review updates, clarified architecture, ablation 
 👉 **AeroCOPDNetRebuild:**  
 https://github.com/emrancub/AeroCOPDNetRebuild
 
-All future updates and finalized materials will be released in the rebuilt repository upon request or after paper acceptance.
+All future updates and finalized materials will be released in the rebuilt repository upon request.
 
 # Previous: 
 # AeroCOPDNet (All updates and publications will be made as per request or after acceptance of the paper.)
@@ -170,14 +170,6 @@ python -m scripts.augment_gallery --csv artifacts\splits\pooled_icbhi_fraiwan_bi
 python -m scripts.ablation_run --csv artifacts\splits\pooled_icbhi_fraiwan_binary.csv --folds 5 --epochs 100 --batch_size 32 --sr 16000 --duration 4.0 --model aerocopdnet --dropout 0.3 --lr 5e-4 --wd 1e-4 --outdir artifacts\ablation
 ```
 
-> **Note:** `artifacts/` (figures, plots, reports) is intentionally empty now and will be populated after final journal decisions.
-
----
-
-## 📈 Results (placeholder summary)
-
-Full tables/plots will appear in `artifacts/` once released.
-
 ---
 
 ## ✅ Reproducibility Tips
@@ -191,14 +183,17 @@ Full tables/plots will appear in `artifacts/` once released.
 
 ## 📚 Citation
 
-If you use this repository, please cite the datasets and our manuscript (will change after published):
+If you use this repository, please cite the datasets and our manuscript:
 
 ```bibtex
-@article{AeroCOPDNet2025,
-  title  = {AeroCOPDNe: A Deep Learning Framework for COPD Detection from Lung Sounds},
-  author = {Md Emran Hasan, Yue-Fang Wu and Dong-Jun Yu},
-  year   = {2025},
-  note   = {Code: https://github.com/emrancub/AeroCOPDNet}
+@article{hasan2026aerocopdnet,
+  title={AeroCOPDNet: A deep learning framework for COPD detection from lung sounds},
+  author={Hasan, Md Emran and Wu, Yue-Fang and Yu, Dong-Jun},
+  journal={Biomedical Signal Processing and Control},
+  volume={119},
+  pages={109939},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
